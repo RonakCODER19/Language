@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    char c[4];
+    char c[5];
 
     cout<<"Enter name :";
 
