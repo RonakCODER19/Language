@@ -2,13 +2,13 @@
 using namespace std;
 int main()
 {
-    int n;
+    char c[4];
 
-    std::cout<<"Enter Number :";
+    cout<<"Enter name :";
 
-    std::cin>>n;
+    cin>>c;
 
-    std::cout<<n;
+    cout<<c;
 
-    
+  
 }
