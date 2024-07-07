@@ -1,3 +1,8 @@
+/*
+    321
+    321
+    321
+*/
 #include<stdio.h>
 
 void main()
