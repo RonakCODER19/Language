@@ -1,11 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
+
 
 void main()
 {
-    int a[3][3],i,j;
-
-    clrscr();
+    int a[3][3],i,j,c=0,n=0;
 
     for(i=0; i<3; i++)
     {
@@ -13,6 +11,12 @@ void main()
         {
             printf("a[%d][%d]:",i,j);
             scanf("%d",&a[i][j]);
+            if(a[i][j]==0)
+            {
+                c++;
+            }
+            else
+                n++;
         }
         printf("\n");
 
@@ -36,5 +40,15 @@ void main()
         }
         printf("\n");
     }
-getch();
+
+
+        printf("zero is %d:",c);
+        printf("non zero is %d\n:",n);
+
+
+        if(c>n)
+        {
+            printf("its spass metrix");
+        }
+       
 }
