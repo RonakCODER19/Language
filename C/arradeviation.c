@@ -1,10 +1,11 @@
 #include<stdio.h>
-
+#include<conio.h>
 void main()
 {
     int row,col,a[2][2];
         int r,c;
 
+    clrscr();
         for(row=0; row<2; row++)
         {
             for(col=0; col<2; col++)
@@ -33,4 +34,5 @@ void main()
             }
             printf("\n");
         }
+getch();
 }
