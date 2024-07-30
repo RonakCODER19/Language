@@ -10,7 +10,7 @@ void main()
      for(row=1; row<=num; row++)
      {
             printf("list[%d]:",row);
-            scanf("%d",&list[row]);
+            scanf("%d",&list[row]); // 7 3 4
      }
 
      for(row=1; row<=num; row++)
@@ -18,5 +18,9 @@ void main()
             pot=row-1; // 0 1 2 Position of row are stored in pot variable
             tmp=list[row]; // value of a list array are stord in tmp variable
            
+            while(tmp<list[pot])
+            {
+                
+            }
      }
 }
